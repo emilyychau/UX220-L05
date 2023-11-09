@@ -4,4 +4,4 @@ class EmilyElement extends HTMLElement{
     }
 }
 
-customElements.define("x-Emily", EmilyElement);
+customElements.define("x-emily", EmilyElement);
