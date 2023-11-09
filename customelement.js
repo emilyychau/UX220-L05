@@ -27,13 +27,13 @@ customElements.define("x-fullyear", YearElement);
 
 //
 
-class MaroonElement extends HTMLElement{
+class FooterElement extends HTMLElement{
     connectedCallback(){
         this.innerHTML = 
         `<div style="color:DarkRed; text-align:center; font-family: Roboto, sans-serif;">${this.innerHTML}</div>`;
     }
 }
 
-customElements.define("x-maroon", MaroonElement);
+customElements.define("x-footer", FooterElement);
 
 //
