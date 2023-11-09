@@ -30,7 +30,7 @@ customElements.define("x-fullyear", YearElement);
 
 class FooterElement extends HTMLElement{
     connectedCallback(){
-        this.innerHTML = `<div style="text-align: center; font-family: 'Roboto'">${this.innerHTML}</div>`;
+        this.innerHTML = `<div style="text-align: center; font-family: 'Roboto'; colour: DarkRed">${this.innerHTML}</div>`;
     }
 }
 
