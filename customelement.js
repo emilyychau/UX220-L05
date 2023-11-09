@@ -30,7 +30,7 @@ customElements.define("x-fullyear", YearElement);
 class MaroonElement extends HTMLElement{
     connectedCallback(){
         this.innerHTML = 
-        `<div style="color:DarkRed">${this.innerHTML}</div>`;
+        `<div style="color:blue;">${this.innerHTML}</div>`;
     }
 }
 
