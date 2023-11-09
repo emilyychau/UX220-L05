@@ -2,6 +2,6 @@ x-center{
     visibility: hidden;
 }
 
-x-center:defined{
+x-center: defined{
     visibility: visible;
 }
