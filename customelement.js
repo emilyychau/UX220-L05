@@ -8,7 +8,7 @@ customElements.define("x-emily", EmilyElement);
 
 class CenterElement extends HTMLElement{
     connectedCallback(){
-        this.innerHTML = ``;
+        this.innerHTML = `<div style="text-align:center></div>`;
     }
 }
 
