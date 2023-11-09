@@ -29,7 +29,7 @@ customElements.define("x-fullyear", YearElement);
 
 class FooterElement extends HTMLElement{
     connectedCallback(){
-        this.innerHTML = `<div style="font-family: ui-monospace">${this.innerHTML}</div>`;
+        this.innerHTML = `<footer style="font-family: ui-monospace">${this.innerHTML}</footer>`;
     }
 }
 
